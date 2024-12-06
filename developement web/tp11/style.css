@@ -1,0 +1,25 @@
+	p {
+		/*color:blue;*/
+		font-size: 24px;
+		font-family:arial;
+	}
+	
+	h1 {
+		color: #CC6633;
+	}
+	
+	.mauve {
+		color: purple;
+	}
+	
+	.souligne {
+		text-decoration: underline;
+	}
+	
+	#vert {
+		color:green;
+	}
+	
+	.vert {
+		color:green;
+	}

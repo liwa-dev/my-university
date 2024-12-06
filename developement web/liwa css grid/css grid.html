@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>CSS GRID</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header class="dashboard-header">
+        <h1>CSS Grid - Full Height Page Layout</h1>
+    </header>
+    <aside class="dashboard-sidebar">
+        <div class="logo">&#x2655;</div>
+        <!-- menus -->
+         <!-- ul>li>a*3 -->
+        <button type="button" id="resize">&#x2655;</button>
+    </aside>
+    <main class="dashboard-main">
+        <h2>Main</h2>
+        <div class="card card-1">
+            <h2>Welcome Tunisia!</h2>
+        </div>
+        <div class="card card-2">
+            <h2>Orders - 2</h2>
+        </div>
+        <div class="card card-3">
+            <h2>Shipping-3</h2>
+        </div>
+        <div class="card card-4">
+            <h2>Pending-4</h2>
+        </div>
+        <div class="card card-5">
+            <h2>Revenue-5</h2>
+        </div>
+        <div class="card card-6">
+            <h2>Users-6</h2>
+        </div>
+        <div class="card card-7">
+            <h2>Subscripyions-7</h2>
+        </div>
+        <div class="card card-8">
+            <h2>Analytics-8</h2>
+        </div>
+        <div class="card card-9">
+            <h2>Inbox-9</h2>
+        </div>
+        <div class="card card-10">
+            <h2>Calendar-10</h2>
+        </div>
+        <div class="card card-11">
+            <h2>User Activity-11</h2>
+        </div>
+        <div class="card card-12">
+            <h2>Sales Dynamics-12</h2>
+        </div>
+        <div class="card card-13">
+            <h2>Tasks-13</h2>
+        </div>
+    </main>
+    <footer class="dashboard-footer">Footer</footer>
+</body>
+
+<script>
+    resizeBtn = document.getElementById("resize");
+    resizeBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        document.body.classList.toggle("sb-expand");
+    });
+</script>
+
+</html>
